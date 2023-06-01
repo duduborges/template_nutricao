@@ -1,0 +1,37 @@
+@import url(triangulo.css);
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fbfbe1;
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(#d3d36c, #d4dc6c, #dcd46e, #dfe096);
+    margin: 0;
+}
+nav{
+    margin: 0;
+}
+#alou{
+    margin: 0;
+}
+.topnav{
+    border-bottom: 1px solid rgba(56, 56, 56, 0.171);
+  overflow: hidden;
+  height: 70px;
+  margin-block-end: 0;
+  padding-left: 5px;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+p:target{
+    scroll-margin-top: 70px;
+}
+p{
+    font-size: 20px;
+    margin-left: 12px;
+    padding: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
